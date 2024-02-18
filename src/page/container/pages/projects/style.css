@@ -1,0 +1,163 @@
+.project {
+    background-color: #0A192F;
+    width: 100%;
+    display: inline-block;
+    padding: 0 100px;
+    animation: project-anime 1s 1;
+}
+
+/* .project-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+} */
+
+.project-box-1 {
+    width: 50%;
+}
+
+.project-box-2 {
+    width: 50%;
+}
+
+#float {
+    justify-content: flex-start;
+}
+
+.project-text {
+    width: 80%;
+}
+
+.project-text p {
+    color: #15AAC0;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.project-text h1 {
+    font-size: 45px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #E9EAEC;
+    margin-bottom: 20px;
+}
+
+.project-text a {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 1px solid #15AAC0;
+    padding: 10px 0;
+    color: #E9EAEC;
+}
+
+.project-text a i {
+    margin-left: 15px;
+}
+
+.project-img-block {
+    position: relative;
+    width: 500px;
+    height: 400px;
+}
+
+/* .project-img-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform: rotate(-8deg);
+    z-index: 2;
+    background-color: #2A7B90;
+    border-radius: 30px;
+} */
+
+.project-img-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    z-index: 3;
+    border-radius: 30px;
+    background-color: #E7F4FA;
+    box-shadow: 0 0 15px 1px rgba(34, 60, 80, 0.2);
+    overflow: hidden;
+    padding: 15px;
+}
+
+.project-img-front img {
+    width: 100%;
+    height: 100%;
+}
+
+.view-all {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@keyframes project-anime {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+#box_none { display: none; }
+#box_block { display: block; }
+@media (max-width: 700px) {
+    #box_none { 
+        display: flex; 
+
+    }
+    #box_block { display: none; }
+    .project {
+        padding: 0 15px;
+    }
+
+    #skills-text-1 {
+        font-size: 65px;
+        margin-top: 50px;
+    }
+
+    .project-box-1,
+    .project-box-2 {
+        width: 100%;
+    }
+    .project-box-1 {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .project-text p {
+        font-size: 15px;
+        margin: 0;
+        display: block;
+    }
+
+    .project-text h1 {
+        font-size: 25px;
+        margin: 0 !important;
+        display: block;
+    }
+
+    .project-img-block {
+        width: 300px;
+        height: 200px;
+    }
+
+    .project-box-2 {
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #block-none {
+        display: flex;
+    }
+
+    #float {
+        justify-content: center;
+    }
+}

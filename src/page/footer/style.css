@@ -1,0 +1,61 @@
+.footer {
+    background-color: #000;
+    min-height: 50vh;
+    position: relative;
+    animation: footer-anime 1s 1;
+}
+.display { display: none; }
+.contact {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    transform: translateY(-140px);
+    background-color: #252734;
+    border-radius: 30px;
+    text-align: center;
+    padding: 40px 230px;
+    color: #E9EAEC;
+}
+.contact h1 {
+    font-size: 40px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.contact p {
+    margin-top: 10px;
+    line-height: 20px;
+}
+.contact button {margin-top: 50px;}
+.contact-back {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.07);
+    font-size: 180px !important;
+    z-index: -1;
+    user-select: none;
+}
+.author {
+    text-align: center;
+    color: #c7c7c7;
+    font-size: 14px;
+    user-select: none;
+}
+@keyframes footer-anime {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+@media (max-width: 700px) {
+    .contact {
+        width: 97%;
+        padding: 20px;
+    }
+    .contact-back {
+        font-size: 65px !important;
+        bottom: 25px;
+        left: 5px;
+    }
+    .contact button {margin-top: 30px;}
+    .author {font-size: 10px;}
+}

@@ -1,0 +1,72 @@
+.workflow {
+    padding: 0 100px;
+}
+.workflow-text {
+    transform: translateY(-90px);
+}
+.workflow-text p {
+    color: #15AAC0;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.workflow-text h1 {
+    font-size: 43px;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #E9EAEC;
+    margin-bottom: 20px;
+}
+.workflow-block {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -60px;
+}
+.workflow-box {
+    position: relative;
+    width: 32%;
+    margin-bottom: 25px;
+    background-color: #434657;
+    overflow: hidden;
+    color: #E9EAEC;
+    cursor: pointer;
+    transition: .4s;
+    padding: 20px;
+}
+.workflow-box:nth-child(1) {border-radius: 30px 0 0 0}
+.workflow-box:nth-child(3) {border-radius: 0 30px 0 0}
+.workflow-box:nth-child(6) {border-radius: 0 0 30px 0}
+.workflow-box:nth-child(4) {border-radius: 0 0 0 30px}
+.workflow-box:hover {
+    background-color: #15AAC0;
+    box-shadow: 0 0 42px 10px rgba(21, 170, 192, 0.2);
+}
+.workflow-box h1 {
+    position: absolute;
+    text-align: right;
+    width: 100%;
+    top: -20px;
+    left: 0;
+    font-size: 170px;
+    -webkit-text-stroke-color: rgba(225,225,225,0.2);
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+    font-family: 'Libre Franklin', sans-serif;
+    user-select: none;
+}
+.workflow-context-text p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #c7c7c7;
+    line-height: 17px;
+}
+@media (max-width: 700px) {
+    .workflow {
+        padding: 0 15px;
+    }
+    .workflow-box {width: 100%; height: 170px;}
+    .workflow-text p {margin: 0;}
+    #skills-text-2 {font-size: 50px; margin-top: 50px;}
+    .workflow-text {transform: translateY(0)}
+    .workflow-block {margin: 0;}
+}

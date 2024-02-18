@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0A192F;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #00ddff; 
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #15AAC0; 
+    border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container-box {
+    animation: container-anime 1s 1;
+}
+.offline {
+    padding: 3px 0;
+    text-align: center;
+    color: red;
+    animation: warn 1.5s infinite;
+    position: fixed;
+    z-index: 20;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.online {
+    padding: 3px 0;
+    text-align: center;
+    color: #4cd137;
+    position: fixed;
+    z-index: 20;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@keyframes warn {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+ 
+@keyframes container-anime {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

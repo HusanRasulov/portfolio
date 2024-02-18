@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81bd1837.css",
+    "main.js": "/static/js/main.324834f7.js",
+    "static/media/gym.jpg": "/static/media/gym.537270e43fc2ca522656.jpg",
+    "static/media/paul.jpg": "/static/media/paul.caf0e0fb4fc33f8aaccc.jpg",
+    "static/media/mawad.jpg": "/static/media/mawad.f23976cd737340619ada.jpg",
+    "static/media/hr.png": "/static/media/hr.ccd6299af2108ef5cfa4.png",
+    "static/media/shift.jpg": "/static/media/shift.2b78e776ed62afb5696a.jpg",
+    "static/media/webescuella.jpg": "/static/media/webescuella.b6a3b32b1d1f1636c23b.jpg",
+    "static/media/react.png": "/static/media/react.07d9e407d4e491c548d5.png",
+    "static/media/icons8-spring-boot-480.png": "/static/media/icons8-spring-boot-480.823fc29789ca7c7b2443.png",
+    "static/media/icons8-postgres-480.png": "/static/media/icons8-postgres-480.b0731a8c61f19e88fa45.png",
+    "static/media/icons8-java-480.png": "/static/media/icons8-java-480.e238a2c40e6eaec570bc.png",
+    "static/media/icons8-amazon-web-services-480 (1).png": "/static/media/icons8-amazon-web-services-480 (1).a204fa8df9a0a1c8d110.png",
+    "static/media/icons8-jwt-480.png": "/static/media/icons8-jwt-480.58816d299aa0e2c8120b.png",
+    "static/media/git.png": "/static/media/git.794624021186ff213804.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.81bd1837.css",
+    "static/js/main.324834f7.js"
+  ]
+}

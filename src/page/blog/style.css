@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.blog {
+    width: 100%;
+    display: inline-block;
+    animation: blog-anime 1s 1;
+}
+.blog-block {
+    padding: 15px 30px;
+    background-color: #252734;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+    margin-bottom: 50px;
+}
+
+.blog-block:hover {
+    box-shadow: 0 0 1rem rgba(225, 225, 225, 0.1);
+}
+.blog-box {
+    padding: 100px 100px 50px 100px;
+}
+.blog-header h1 {
+    color: rgb(0, 183, 255);
+    font-family: 'Mulish', sans-serif !important;
+}
+.blog-body p {
+    color: beige;
+    margin-top: 15px;
+    line-height: 20px;
+    font-family: 'Mulish', sans-serif !important;
+}
+.blog-date {
+    margin-top: 18px;
+    font-size: 12px;
+    color: #00b7ff;
+}
+@keyframes blog-anime {
+    0% {opacity: 0}
+    100% {opacity: 1}
+}
+
+
+/* ----------> INFO-BLOG <--------- */
+
+.Info-blog {
+    width: 100%;
+    display: inline-block;
+    margin-top: 100px;
+    padding: 0 50px 0 50px;
+    height: calc(100vh - 100px);
+}
+iframe {
+    width: 100%;
+    min-height: calc(100vh - 110px);
+    overflow: hidden;
+    border: none;
+}
+
+@media (max-width: 700px) {
+    .blog-box {
+        padding: 100px 20px 0px 20px;
+    }
+    .blog-box h1 { font-size: 22px; }
+    .blog-block:nth-last-child(1) {
+        margin-bottom: 200px !important;
+    }
+    .Info-blog {
+        margin-top: 0;
+        padding: 100px 20px 20px 20px;
+    }
+}
+
+@keyframes info {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
